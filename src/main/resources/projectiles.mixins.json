@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "teamport.projectiles.extra.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemBowMixin",
+    "PlayerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,12 @@
+item.projectiles.ammo.arrow.egg.name=Egg Arrow
+item.projectiles.ammo.arrow.egg.desc=An... egg-headed projectile? for firing from a bow.
+item.projectiles.ammo.arrow.explosive.name=Explosive Arrow
+item.projectiles.ammo.arrow.explosive.desc=An explosive-headed projectile for firing from a bow.
+item.projectiles.ammo.arrow.fire.name=Fire Arrow
+item.projectiles.ammo.arrow.fire.desc=A flame-headed projectile for firing from a bow.
+item.projectiles.ammo.arrow.ice.name=Ice Arrow
+item.projectiles.ammo.arrow.ice.desc=An ice-headed projectile for firing from a bow.
+item.projectiles.ammo.arrow.lightning.name=Lightning Arrow
+item.projectiles.ammo.arrow.lightning.desc=A diamond-headed projectile for firing from a bow.
+item.projectiles.tool.bow.homing.name=Homing Bow
+item.projectiles.tool.bow.homing.desc=A weapon for shooting rapid-fire seeking
