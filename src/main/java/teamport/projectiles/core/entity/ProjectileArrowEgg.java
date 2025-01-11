@@ -26,9 +26,20 @@ public class ProjectileArrowEgg extends ProjectileArrow {
 	@Override
 	public void onHit(HitResult hitResult) {
 		super.onHit(hitResult);
-		MobChicken chicken = new MobChicken(world);
-		chicken.setPos(x, y, z);
-		world.entityJoinedWorld(chicken);
+
+		if (random.nextInt(8) == 0) {
+			byte chickenByte = 1;
+			if (random.nextInt(32) == 0) {
+				chickenByte = 4;
+			}
+
+			for (int i = 0; i < chickenByte; i++) {
+				MobChicken chicken = new MobChicken(world);
+				chicken.setPos(x, y, z);
+				world.entityJoinedWorld(chicken);
+			}
+		}
+
 		remove();
 	}
 }

@@ -33,7 +33,13 @@ public class ProjectileArrowFire extends ProjectileArrow {
 	@Override
 	public void onHit(HitResult hitResult) {
 		super.onHit(hitResult);
-		world.setBlockWithNotify((int) x, (int) y, (int) z, Blocks.FIRE.id());
+
+		if (hitResult.entity != null) {
+			hitResult.entity.remainingFireTicks = 300;
+		} else {
+			world.setBlockWithNotify((int) x, (int) y, (int) z, Blocks.FIRE.id());
+		}
+
 		remove();
 	}
 }

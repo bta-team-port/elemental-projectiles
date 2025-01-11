@@ -4,8 +4,11 @@
   "package": "teamport.projectiles.extra.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BlockLogicDispenserMixin",
     "ItemBowMixin",
-    "PlayerMixin"
+    "PlayerMixin",
+    "ProjectileArrowMixin",
+    "WorldFeatureLabyrinthMixin"
   ],
   "client": [
   ],

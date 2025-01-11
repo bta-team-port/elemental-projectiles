@@ -9,4 +9,4 @@ item.projectiles.ammo.arrow.ice.desc=An ice-headed projectile for firing from a 
 item.projectiles.ammo.arrow.lightning.name=Lightning Arrow
 item.projectiles.ammo.arrow.lightning.desc=A diamond-headed projectile for firing from a bow.
 item.projectiles.tool.bow.homing.name=Homing Bow
-item.projectiles.tool.bow.homing.desc=A weapon for shooting rapid-fire seeking
+item.projectiles.tool.bow.homing.desc=A weapon for shooting rapid-fire seeking arrows.

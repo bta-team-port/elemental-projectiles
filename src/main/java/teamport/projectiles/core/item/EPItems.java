@@ -1,8 +1,7 @@
 package teamport.projectiles.core.item;
 
+import net.minecraft.client.render.item.model.ItemModelBow;
 import net.minecraft.core.item.Item;
-import net.minecraft.core.item.ItemBow;
-import net.minecraft.core.util.collection.NamespaceID;
 import teamport.projectiles.EPConfig;
 import turniplabs.halplibe.helper.ItemBuilder;
 
@@ -48,6 +47,7 @@ public class EPItems {
 
 		TOOL_BOW_HOMING = new ItemBuilder(MOD_ID)
 			.setIcon("projectiles:item/homing_bow")
-			.build(new Item("tool.bow.homing", name("tool_bow_homing"), nextID()));
+			.setItemModel(i -> new ItemModelBow(i, "tool.bow.homing"))
+			.build(new ItemBowHoming("tool.bow.homing", name("tool_bow_homing"), nextID()));
 	}
 }
